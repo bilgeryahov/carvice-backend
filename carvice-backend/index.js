@@ -8,7 +8,7 @@ const { MongooseAdapter: Adapter } = require('@keystonejs/adapter-mongoose');
 const Vehicle = require('./models/Vehicle');
 const User = require('./models/User');
 
-const PROJECT_NAME = "carvice-backend";
+const PROJECT_NAME = 'carvice-backend';
 
 const keystone = new Keystone({
   name: PROJECT_NAME,

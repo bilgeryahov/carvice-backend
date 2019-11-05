@@ -11,7 +11,8 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development DISABLE_LOGGING=true keystone dev",
     "build": "cross-env NODE_ENV=production keystone build",
-    "start": "cross-env NODE_ENV=production keystone start"
+    "start": "cross-env NODE_ENV=production keystone start",
+    "lint": "eslint ./"
   },
   "dependencies": {
     "@keystonejs/adapter-mongoose": "^5.0.0",
@@ -21,5 +22,13 @@
     "@keystonejs/fields": "^5.0.0",
     "@keystonejs/keystone": "^5.0.0",
     "cross-env": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
   }
 }
