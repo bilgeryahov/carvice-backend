@@ -2,7 +2,7 @@ const {
   Text, Checkbox, Password, Relationship,
 } = require('@keystonejs/fields');
 
-const access = require('../access');
+const access = require('../helpers/access');
 
 module.exports = {
   fields: {
